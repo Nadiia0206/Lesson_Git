@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <form action="https://fom.in.ua/echo" method="GET">
+    <label>
+      Поиск:
+      <input type="search" name="search">
+    </label>
+    <label>Тип транспорта:
+      <select name="type_of_transport">
+        <option>Все типы транспорта</option>
+        <option>Легковые</option>
+        <option>Мотоциклы</option>
+        <option>Автобусы</option>
+        <option>Грузовики</option>
+      </select>
+    </label>
+    <p>Тип кузова:</p>
+    <label for="uni"><input type="checkbox" id="uni" name="body_type[]" value="universal">Универсал</label>
+    <label for="sed"><input type="checkbox" id="sed" name="body_type[]" value="sedan">Седан</label>
+    <label for="hatch"><input type="checkbox" id="hatch" name="body_type[]" value="hatchback">Хэтчбек</label>
+    <label for="cros"><input type="checkbox" id="cros" name="body_type[]" value="suv">Внедорожник/Кроссовер</label>
+    <label for="kupe"><input type="checkbox" id="kupe" name="body_type[]" value="coupe">Купе</label>
+    <label for="cabr"><input type="checkbox" id="cabr" name="body_type[]" value="cabriolet">Кабриолет</label>
+    <p>Страна:</p>
+    <select name="country">
+      <option>Выберите страну</option>
+      <option>Германия</option>
+      <option>Франция</option>
+      <option>США</option>
+      <option>Корея11</option>
+      <option>Румыния</option>
+      <option>Украина</option>
+    </select>
+    <p>Стоимость:</p>
+    <input type="text" name="from" placeholder="От">
+    <input type="text" name="to" placeholder="До">
+    <select name="price">
+      <option>$</option>
+      <option>€</option>
+      <option>Грн.</option>
+    </select>
+    <p>Гов выпуска:</p>
+    <input type="text" name="from" placeholder="От">
+    <input type="text" name="to" placeholder="До">
+    <p>Состояние:</p>
+    <label for="brok"><input type="checkbox" id="brok" name="condition" value="broken">Битая</label>
+    <label for="uncl"><input type="checkbox" id="uncl" name="condition" value="uncleared">Нерастаможенная</label>
+    <label for="on"><input type="checkbox" id="on" name="condition" value="on_credit">В кредите</label>
+    <label for="unbr"><input type="checkbox" id="unbr" name="condition" value="unbroken">Неповрежденная</label>
+    <label>
+      Цвет: <input type="color" name="color" value="#ff0000">
+    </label>
+    <p>Топливо:</p>
+    <label for="gasoline"><input type="checkbox" id="gasoline" name="fuel" value="gasoline">Бензин</label>
+    <label for="diesel"><input type="checkbox" id="diesel" name="fuel" value="diesel">Дизель</label>
+    <label for="gas"><input type="checkbox" id="gas" name="fuel" value="gas">Газ</label>
+    <label for="elec"><input type="checkbox" id="elec" name="fuel" value="electro">Электро</label>
+    <p>КПП:</p>
+    <label for="man"><input type="checkbox" id="man" name="transmission" value="manual">Ручная/Механика</label>
+    <label for="auto"><input type="checkbox" id="auto" name="transmission" value="auto">Автомат</label>
+    <label for="type"><input type="checkbox" id="type" name="transmission" value="typetronic">Типтроник</label>
+    <label for="rob"><input type="checkbox" id="rob" name="transmission" value="robot">Робот</label>
+    <label for="var"><input type="checkbox" id="var" name="transmission" value="variator">Вариатор</label>
+    <input type="submit" value="Выбрать">
+  </form>
+</body>
+</html>
