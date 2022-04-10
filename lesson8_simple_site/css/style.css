@@ -37,7 +37,9 @@ header nav {
 }
 
 .menu .active a {
-  color: red;
+  color: #34547A;
+  font-weight: 500;
+  font-family: 'Roboto';
 }
 
 .intro {
@@ -47,6 +49,126 @@ header nav {
 .intro_tittle {
   font-family: 'Roboto';
   font-size: 48px;
-  font-weight: normal;
   margin-bottom: 60px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.about {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 65px;
+  width: 540px;
+  color: #727272;
+}
+
+.btn {
+  padding: 20px 40px;
+  display: inline-block;
+  background-color: #34547A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+.about_me {
+  text-align: center;
+}
+
+.about_me p {
+  width: 540px;
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 26px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.about_tittle {
+  margin-top: 112px;
+  margin-bottom: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.bg_blue {
+  background-color: #34547A;
+}
+
+.project_menu {
+  margin: 0px;
+  padding: 0px;
+}
+  
+.project_menu li {
+  display: inline;
+}
+
+.about_work {
+  text-align: center;
+}
+
+.about_work_tittle {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.about_work_text {
+  width: 540px;
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 26px;
+  margin-top: 50px;
+}
+
+.video {
+  margin-top: 57px;
+  width: 1100px;
+  height: 600px;
+  text-align: center;
+  display: inline-block
+}
+
+.bg_dark_blue {
+  background-color: #34547A;
+}
+
+.end_tittle {
+  margin-top: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  color: white;
+}
+
+.end_text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
 }
