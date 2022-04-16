@@ -1,0 +1,21 @@
+.content {
+  width: 1200px;
+  padding: 30px;
+  border: 2px solid #FF1493;
+  margin-bottom: 40px;  
+}
+
+.block__two {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  border: 1px solid black;
+}
+
+.block__one {
+  display: flex;
+  justify-content: start;
+  padding: 60px;
+  border: 1px solid black;
+
+}
