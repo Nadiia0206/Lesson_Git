@@ -14,12 +14,13 @@ html {
   padding: 32px;
 }
 
-.tittle--h {
-  margin: 0;
-  padding: 0;
+.content {
+  width: 342px;
 }
 
 .tittle {
+  margin: 0;
+  padding: 0;
   width: 286px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -89,6 +90,8 @@ html {
 }
 
 .btn {
+  display: inline-block;
+  box-sizing: border-box;
   align-items: center;
   padding: 10px 20px;
   text-decoration: none;
@@ -108,9 +111,10 @@ html {
 .btn--grey {
   background-color: #F0F1F3;
   color: black;
-  margin-right: 100px;
+  margin-right: 80px;
 }
 
 .btn--apacity {
   color: #3E56AA;
+  background-color: white;
 }
