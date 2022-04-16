@@ -1,0 +1,116 @@
+html {
+  background-color: aquamarine;
+}
+
+.modal {
+  display: block;
+  width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 32px;
+}
+
+.tittle--h {
+  margin: 0;
+  padding: 0;
+}
+
+.tittle {
+  width: 286px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  color: #3E3E3E;
+  margin-bottom: 16px;
+}
+
+.notiffication {
+  background-color: #F0F1F3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+
+.message::before {
+  content: url(../images/union.svg);
+  align-items: center;
+  padding: 12px;
+}
+
+.message .notiffication--succes::before {
+  content: url(../images/green.svg);
+  align-items: center;
+  padding: 12px;
+  background-color: #E9F8EB;
+}
+
+.notiffication--warning {
+  content: url(../images/yellow.svg);
+  align-items: center;
+  padding: 12px;
+  background-color: #FFF8E0;
+}
+
+.notification--mistake {
+  content: url(../images/red.svg);
+  align-items: center;
+  padding: 12px;
+  background-color: #FDEAE4;
+}
+
+.message {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3E3E3E;
+}
+
+.paragraph {
+  margin-bottom: 32px;
+}
+
+.paragraph__message {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3E3E3E;
+}
+
+.btn {
+  align-items: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.btn--blue {
+  background-color: #3E56AA;
+  color: white;
+  margin-right: 12px;
+}
+
+.btn--grey {
+  background-color: #F0F1F3;
+  color: black;
+  margin-right: 100px;
+}
+
+.btn--apacity {
+  color: #3E56AA;
+}
