@@ -1,21 +1,24 @@
 html {
-  background-color: aquamarine;
+  background-color: rgb(129, 165, 243);
 }
 
-.modal {
-  display: block;
-  width: 400px;
-  background-color: white;
-  border-radius: 8px;
+.centered {
   position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  padding: 32px;
+}
+
+.modal {
+  display: block;
+  width: 406px;
+  background-color: white;
+  border-radius: 8px;
 }
 
 .content {
   width: 342px;
+  padding: 32px;
 }
 
 .tittle {
@@ -28,56 +31,61 @@ html {
   font-weight: 700;
   color: #3E3E3E;
   margin-bottom: 16px;
+  margin-right: 32px;
+  display: inline-block;
+  vertical-align: top;
 }
 
-.notiffication {
-  background-color: #F0F1F3;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 4px;
+.exit {
+  box-sizing: border-box;
+  vertical-align: top;
 }
 
-.message::before {
-  content: url(../images/union.svg);
-  align-items: center;
-  padding: 12px;
-}
-
-.message .notiffication--succes::before {
-  content: url(../images/green.svg);
-  align-items: center;
-  padding: 12px;
-  background-color: #E9F8EB;
-}
-
-.notiffication--warning {
-  content: url(../images/yellow.svg);
-  align-items: center;
-  padding: 12px;
-  background-color: #FFF8E0;
-}
-
-.notification--mistake {
-  content: url(../images/red.svg);
-  align-items: center;
-  padding: 12px;
-  background-color: #FDEAE4;
-}
-
-.message {
-  margin: 0;
+.notification {
   padding: 0;
-  width: 300px;
-  
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #F0F1F3;
+  border-radius: 4px;
+  vertical-align: middle;
+
+  font-family: 'Inter';
   font-style: normal;
-  font-size: 14px;
   font-weight: 400;
+  font-size: 14px;
   color: #3E3E3E;
 }
 
-.paragraph {
-  margin-bottom: 32px;
+.notification::before {
+  content: url(../images/union.svg);
+  margin-right: 8px;
+  vertical-align: middle;
+  line-height: 0;
+  display: inline-block
+}
+
+.notification--success::before {
+  content: url(../images/green.svg);
+}
+
+.notification--success {
+  background-color: #E9F8EB;
+}
+
+.notification--warning::before {
+  content: url(../images/yellow.svg);
+}
+
+.notification--warning {
+  background-color: #FFF8E0;
+}
+
+.notification--error::before {
+  content: url(../images/red.svg);
+}
+
+.notification--error {
+  background-color: #FDEAE4;
 }
 
 .paragraph__message {
@@ -87,6 +95,7 @@ html {
   font-size: 14px;
   line-height: 22px;
   color: #3E3E3E;
+  margin-bottom: 32px;
 }
 
 .btn {
