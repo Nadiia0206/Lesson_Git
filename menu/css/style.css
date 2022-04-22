@@ -77,3 +77,8 @@ ul {
   top:0;
   left: 100%;
 }
+
+.text {
+  font-size: 24px;
+  color: rgb(30, 71, 184); 
+}
